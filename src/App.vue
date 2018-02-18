@@ -20,10 +20,10 @@ export default {
     ...mapMutations(['setStartDate'])
   },
   created: function() {
-    this.fetchAllData()
-    if (this.$route.query.code) {
-      this.getToken(this.$route.query.code)
-    }
+    // this.fetchAllData()
+    // if (this.$route.query.code) {
+    //   this.getToken(this.$route.query.code)
+    // }
   }
 }
 </script>
